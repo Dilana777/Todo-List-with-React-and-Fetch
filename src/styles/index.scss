@@ -1,13 +1,72 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.cuadro {
+background-color: white;
+min-height: 500px;
+width: 400px;
+margin: 60px auto;
+
+}
+body{
+    background-color: blueviolet;
+    color:#ea313d;
+}
+
+h1{
+    font-size: 90px;
+    margin-left:100px;
+    color: black;
+}
+
+input{
+     width: 400px;
+     height: 50px;
+     outline: none;
+     padding: 0 20px;
+     background-color:#05bceb;
+     border: 0;
+     font-size: 18px;
+     border-radius: 3px;
+}
+
+.li{
+    
+    list-style-type: none;
+    display: flex;
+   border-bottom:#ea313d 1px solid;
+   padding-bottom:10px;
+   color:#ea313d;
+  
+}
+
+
+button{
+    margin-left:300px;
+    position:relative;
+    bottom:25px;
+   
+    color:white;
+    border:white;
+    background-color:white;
+   
+}
+
+button:hover{
+    color:white;
+    border:#aeaeac;
+    background-color:#ea313d;
+}
+
+.cleanlist{
+    color:white;
+    border:#aeaeac;
+    background-color:#ea313d;
+}
+
+h1{
+    color:#ea313d;
+}
+
+
